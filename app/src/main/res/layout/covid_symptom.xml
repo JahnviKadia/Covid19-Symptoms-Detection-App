@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible"
+    tools:context=".CovidSymptomMain"
+    tools:visibility="visible"
+    android:background="@drawable/images_2">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal">
+
+
+        <TextView
+            android:id="@+id/txtName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="Enter your name"
+            android:visibility="visible"
+            android:textSize="18dp"
+            android:textColor="@color/yellow"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            />
+
+        <EditText
+            android:id="@+id/editName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="0dp"
+            android:hint="enter your name"
+            android:padding="10dp"
+            android:visibility="visible"
+            android:textStyle="bold"
+            android:textColorHint="@color/white"
+            android:textColor="@color/yellow"
+            />
+
+        <TextView
+            android:id="@+id/txtQuestion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="10dp"
+            android:visibility="visible"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textColor="@color/yellow"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp">
+
+        <Button
+            android:id="@+id/trueButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/true_button"
+            android:visibility="gone"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/yellow"
+            />
+
+
+        <Button
+            android:id="@+id/startButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/start_button"
+            android:layout_marginLeft="10dp"
+            android:visibility="visible"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:textColor="@color/yellow" />
+
+
+        <Button
+            android:id="@+id/falseButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="@string/false_button"
+            android:visibility="gone"
+            android:textStyle="bold"
+            android:layout_marginTop="0dp"
+            android:textSize="15dp"
+            android:textColor="@color/yellow"
+            />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_marginLeft="10dp"
+        android:padding="5dp"
+        android:text="@string/submit_button"
+        android:visibility="gone"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="@color/yellow"/>
+
+
+    <Button
+        android:id="@+id/nextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:drawableRight="@drawable/ic_baseline_navigate_next_24"
+        android:padding="5dp"
+        android:text="@string/next_button"
+        android:visibility="gone"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="@color/yellow"/>
+
+    <Button
+        android:id="@+id/clearButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"
+        android:padding="5dp"
+        android:text="@string/clear_button"
+        android:visibility="gone"
+        android:textStyle="bold"
+        android:drawableRight="@drawable/ic_baseline_clear_all_24"
+        android:textSize="15dp"
+        android:textColor="@color/yellow"
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        tools:visibility="invisible"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:visibility="invisible"
+        tools:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:visibility="invisible"
+        tools:visibility="invisible" />
+
+</FrameLayout>
