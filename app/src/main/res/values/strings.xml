@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Covid19SymptomDetection</string>
+    <string name="app_name">Covid19 Symptom Detection</string>
     <string name="question_1">Do you have fever?</string>
     <string name="question_2">Do you have running nose?</string>
     <string name="question_3">Do you have body pain?</string>
