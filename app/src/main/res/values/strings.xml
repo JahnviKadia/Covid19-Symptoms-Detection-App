@@ -1,3 +1,15 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Covid19SymptomDetection</string>
+    <string name="question_1">Do you have fever?</string>
+    <string name="question_2">Do you have running nose?</string>
+    <string name="question_3">Do you have body pain?</string>
+    <string name="question_4">Do you have headache?</string>
+    <string name="question_5">Do you have scratchy throat?</string>
+    <string name="true_button">TRUE</string>
+    <string name="false_button">FALSE</string>
+    <string name="next_button">NEXT</string>
+    <string name="submit_button">SUBMIT</string>
+    <string name="clear_button">CLEAR</string>
+    <string name="start_button">START</string>
+    <string name="check_button">CHECK</string>
 </resources>
